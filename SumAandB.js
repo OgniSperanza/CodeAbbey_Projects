@@ -18,12 +18,5 @@
 //answer:
 //8
 
-var inputs = input().replace(/\n/gm," ");
-var inputs = input().replace(/\r/gm," ");
-var nums = inputs.split(' ');
-var i;
-var result = 0;
-for (i = 0; i < nums.length; i++) {
-    result = Number(result) + Number(nums[i]);
-}
-output(result);
+var nums = input().split(' ');
+output(Number(nums[0]) + Number(nums[1]));
